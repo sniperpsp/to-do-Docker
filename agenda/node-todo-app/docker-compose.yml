@@ -12,7 +12,7 @@ services:
       - /d/TreinamentoCodigos/to-do-Docker/agenda/node-todo-app/volumedb:/var/lib/postgresql/data
 
   app:
-    build: .
+    image: node-todo-app
     ports:
       - "3000:3000"
     depends_on:

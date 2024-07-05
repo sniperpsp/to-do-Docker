@@ -71,25 +71,24 @@ docker-compose up --build
 
 ## Estrutura de Diretórios
 
-
+```	
 TO-DO-DOCKER/
 ├── agenda/
-│   ├── node_modules/
-│   ├── node-todo-app/
-│   │   ├── public/
-│   │   │   ├── app.js
-│   │   │   └── index.html
-│   │   ├── Dockerfile
-│   │   ├── Dockerfile-postgres
-│   │   ├── docker-compose.yml
-│   │   ├── index.js
-│   │   ├── package.json
-│   │   ├── package-lock.json
-│   │   └── volumedb/
+│ ├── node_modules/
+│ ├── node-todo-app/
+│ │ ├── public/
+│ │ │ ├── app.js
+│ │ │ └── index.html
+│ │ ├── Dockerfile
+│ │ ├── Dockerfile-postgres
+│ │ ├── docker-compose.yml
+│ │ ├── index.js
+│ │ ├── package.json
+│ │ ├── package-lock.json
+│ │ └── volumedb/
 ├── init-db.sh
 └── README.md
-
-
+```
 
 
 ## Contribuição

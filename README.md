@@ -85,8 +85,8 @@ TO-DO-DOCKER/
 │ │ ├── index.js
 │ │ ├── package.json
 │ │ ├── package-lock.json
-│ │ └── volumedb/
-├── init-db.sh
+│ │ ├── volumedb/
+│ │ └── init-db.sh
 └── README.md
 ```
 
